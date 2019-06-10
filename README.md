@@ -1,13 +1,9 @@
-# Spring Boot Chatroom
+1. The host is allowed to create multiple chat rooms and broadcast the room numbers to the connected clients. 
 
-Spring Boot websocket chatroom with arbitrary number of rooms.
+2. The client could connect to the host and start chatting by entering the room number. 
 
-Forked from the following tutorial:
-https://www.callicoder.com/spring-boot-websocket-chat-example/
+3. All the clients in a room could receive the messages that an individual client has posted. 
 
-Run the server with gradle and visit `localhost:8080`:
+4. The host will ask the name of the user. 
 
-```
-./gradlew bootRun
-```
-
+5. If a client leaves, all the clients in the room will receive a notification
